@@ -1,4 +1,4 @@
-ARG BUILD_FROM=homeassistant/aarch64-base:latest
+ARG BUILD_FROM=homeassistant/odroid-c2-homeassistant:latest
 FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
