@@ -1,4 +1,4 @@
-ARG BUILD_FROM=homeassistant/odroid-c2-homeassistant:latest
+ARG BUILD_FROM=homeassistant/armhf-base:latest
 FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
