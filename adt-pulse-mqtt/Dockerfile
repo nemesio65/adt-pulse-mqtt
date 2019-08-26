@@ -1,4 +1,4 @@
-ARG BUILD_FROM=homeassistant/armhf-base:latest
+ARG BUILD_FROM=homeassistant/armv7-base:latest
 FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
