@@ -11,6 +11,6 @@ cd adt-pulse-mqtt
 # homeassistant/aarch64-base
 # homeassistant/i386-base
 
-docker build --build-arg BUILD_FROM="homeassistant/armhf-base:latest" -t local/adt-pulse-mqtt .
+docker build --build-arg BUILD_FROM="homeassistant/armv7-base:latest" -t local/adt-pulse-mqtt .
 
 
