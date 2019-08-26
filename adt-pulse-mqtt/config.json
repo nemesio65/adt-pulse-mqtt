@@ -8,7 +8,7 @@
   "boot": "auto",
   "host_network" : false,
   "arch": [
-    "armhf"
+    "armv7"
   ],
   "map": [
     "share:rw",
